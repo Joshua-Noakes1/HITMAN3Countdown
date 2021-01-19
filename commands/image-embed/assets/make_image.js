@@ -28,7 +28,7 @@ async function makeImage() {
 
         // setting the background
         const background = new Canvas.Image();
-        background.src = "./commands/image-embed/assets/background_3840x1080.png"
+        background.src = "./commands/image-embed/assets/Background_3840x1080.png"
         context.drawImage(background, 0, 0)
 
         // setting up how the text should look (i know it should be 47 but thats just too small)
