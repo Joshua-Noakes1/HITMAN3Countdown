@@ -1,0 +1,19 @@
+{
+  "name": "hitman3countdown",
+  "version": "1.0.0",
+  "description": "Countdown till year 2 of HITMAN 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joshua-Noakes1/HITMAN3Countdown.git"
+  },
+  "author": "joshua-noakes1",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Joshua-Noakes1/HITMAN3Countdown/issues"
+  },
+  "homepage": "https://github.com/Joshua-Noakes1/HITMAN3Countdown#readme"
+}
