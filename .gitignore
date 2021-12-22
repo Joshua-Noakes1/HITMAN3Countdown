@@ -127,4 +127,5 @@ dist
 .pnp.*
 
 # Extra
+commands/image/lib/images/custom/*png*
 *old*
