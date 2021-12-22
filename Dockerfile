@@ -9,7 +9,7 @@ RUN apt-get update && apt-get upgrade -y
 COPY . .
 
 # Install Node dependencies
-RUN npm ci
+RUN npm install
 
 # Start app
 CMD ["npm", "start"]
