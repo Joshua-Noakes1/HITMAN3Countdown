@@ -1,0 +1,8 @@
+version: '3.2'
+services:
+  hitman3countdown:
+    image: 'ghcr.io/joshua-noakes1/hitman3countdown' # or 'joshua-noakes1/hitman3countdown'
+    container_name: 'hitman3countdown'
+    restart: unless-stopped
+    environment:
+      TOKEN: "ODAxMTc0Mjk0ODE3OTMxMzI2.YAc1tA.4lBzXPdngPfSVg0w92aFm-gpFPY"

@@ -14,7 +14,7 @@ module.exports = {
   description: 'Replies with an embed of the time till Year 2', // Required for slash commands
 
   slash: true, // Create both a slash and legacy command
-  testOnly: true, // Only register a slash command for the testing guilds
+  testOnly: false, // Only register a slash command for the testing guilds
 
   callback: async ({
     interaction
