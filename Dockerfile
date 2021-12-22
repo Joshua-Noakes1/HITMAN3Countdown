@@ -1,5 +1,5 @@
 # From node:slim
-FROM node:slim
+FROM node
 WORKDIR /app
 
 # Install dependencies
