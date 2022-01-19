@@ -33,7 +33,7 @@ async function createImage() {
     ctx.drawImage(img, 0, 0, width, height);
 
     // load timeLeft and confgure
-    var timeLeft = await deadlineTime('January 20 2022 13:00:00 GMT+0000'); // this could change... 
+    var timeLeft = await deadlineTime('January 20 2022 18:00:00 GMT+0000'); // it did change https://twitter.com/IOInteractive/status/1483883848601636868
     var timeLeftStr = {
         str: "Death Awaits",
         size: "300"
